@@ -1,0 +1,42 @@
+{
+  "appName": "multisigEVM",
+  "walletConnectProjectId": "REPLACE_ME",
+  "chains": [
+    {
+      "id": 1329,
+      "name": "Sei",
+      "nativeCurrency": { "name": "Sei", "symbol": "SEI", "decimals": 18 },
+      "rpcUrl": "https://evm-rpc.sei-apis.com",
+      "blockExplorer": { "name": "Seitrace", "url": "https://seitrace.com" },
+      "contracts": {
+        "safeSingleton": "0x0000000000000000000000000000000000000000",
+        "safeProxyFactory": "0x0000000000000000000000000000000000000000",
+        "fallbackHandler": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "id": 2525,
+      "name": "Injective",
+      "nativeCurrency": { "name": "Injective", "symbol": "INJ", "decimals": 18 },
+      "rpcUrl": "https://mainnet.rpc.inevm.com/http",
+      "blockExplorer": { "name": "Injective Explorer", "url": "https://inevm.calderaexplorer.xyz" },
+      "contracts": {
+        "safeSingleton": "0x0000000000000000000000000000000000000000",
+        "safeProxyFactory": "0x0000000000000000000000000000000000000000",
+        "fallbackHandler": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "id": 5234,
+      "name": "Realio",
+      "nativeCurrency": { "name": "Realio", "symbol": "RIO", "decimals": 18 },
+      "rpcUrl": "https://evm-rpc.realio.network",
+      "blockExplorer": { "name": "Realio Explorer", "url": "https://explorer.realio.network" },
+      "contracts": {
+        "safeSingleton": "0x0000000000000000000000000000000000000000",
+        "safeProxyFactory": "0x0000000000000000000000000000000000000000",
+        "fallbackHandler": "0x0000000000000000000000000000000000000000"
+      }
+    }
+  ]
+}
